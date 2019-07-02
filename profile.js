@@ -48,4 +48,4 @@ function Profile(username) {
 
 util.inherits(Profile, EventEmitter);
 
-module.exports = Profile;
+export { Profile };

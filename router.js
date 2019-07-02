@@ -1,4 +1,4 @@
-var Profile = require("./profile.js");
+import {Profile} from "./profile.js";
 
 
 // Handle HTTP route GET / and POST / i.e. Home
@@ -62,5 +62,4 @@ function user(req, res) {
 
 }
 
-module.exports.home = home;
-module.exports.user = user;
+export { home , user };
